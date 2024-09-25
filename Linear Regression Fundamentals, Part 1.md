@@ -13,6 +13,7 @@ However, for linear regression to provide reliable insights, it relies on severa
 Meeting these assumptions is crucial for the validity and accuracy of the results obtained from linear regression analysis. When we violate these assumptions, the reliability of the model’s predictions may be compromised, and alternative approaches or transformations might be necessary.<br>
 <br>
 Let’s touch on each assumption of linear regression, and state the ways to check for violations and potential adjustments if these assumptions are not met:<br>
+
 ### Linearity
 * **Check:** Plotting the scatterplot of the dependent variable against each independent variable helps assess linearity visually. If the relationship appears nonlinear, a curved trend might indicate a violation.
 * **Adjustment:** Transforming variables by taking logarithms, squares, or higher-order terms (e.g., quadratic or cubic terms) might help linearize the relationship.
