@@ -4,16 +4,16 @@ Linear regression is a fundamental statistical technique to understand the relat
 This topic isn’t always taught in depth to working professionals or anyone that hasn’t had rigorous mathematical training. So, in a series of posts I will go over in depth some of the fundamental concepts of linear regression.
 ## Fundamental Assumptions
 However, for linear regression to provide reliable insights, it relies on several key assumptions:
-1. Linearity: The relationship between the variables should be approximately linear. This means that changes in the outcome variable are proportional to changes in the predictor variable.
-2. Independence: Each data point should be independent of other data points. In other words, there should be no correlation between the residuals (the differences between observed and predicted values).
-3. Homoscedasticity: The variance of the residuals should be constant across all levels of the predictor variable. This assumption ensures that the model is equally precise in predicting outcomes regardless of the values of the predictor.
-4. Normality of Residuals: For this assumption to be met, the residuals are normally distributed around zero. This means that the errors or the differences between the observed and predicted values should follow a bell-shaped curve.
-5. No Multicollinearity: In multiple regression (with more than one predictor variable), there should be no high correlation among the predictor variables. High multicollinearity can lead to unreliable estimates of the coefficients.
-Meeting these assumptions is crucial for the validity and accuracy of the results obtained from linear regression analysis. When we violate these assumptions, the reliability of the model’s predictions may be compromised, and alternative approaches or transformations might be necessary.
+1. **Linearity:** The relationship between the variables should be approximately linear. This means that changes in the outcome variable are proportional to changes in the predictor variable.
+2. **Independence:** Each data point should be independent of other data points. In other words, there should be no correlation between the residuals (the differences between observed and predicted values).
+3. **Homoscedasticity:** The variance of the residuals should be constant across all levels of the predictor variable. This assumption ensures that the model is equally precise in predicting outcomes regardless of the values of the predictor.
+4. **Normality of Residuals:** For this assumption to be met, the residuals are normally distributed around zero. This means that the errors or the differences between the observed and predicted values should follow a bell-shaped curve.
+5. **No Multicollinearity:** In multiple regression (with more than one predictor variable), there should be no high correlation among the predictor variables. High multicollinearity can lead to unreliable estimates of the coefficients.<br>
+Meeting these assumptions is crucial for the validity and accuracy of the results obtained from linear regression analysis. When we violate these assumptions, the reliability of the model’s predictions may be compromised, and alternative approaches or transformations might be necessary.<br>
 Let’s touch on each assumption of linear regression, and state the ways to check for violations and potential adjustments if these assumptions are not met:
 Linearity
-	• Check: Plotting the scatterplot of the dependent variable against each independent variable helps assess linearity visually. If the relationship appears nonlinear, a curved trend might indicate a violation.
-	• Adjustment: Transforming variables by taking logarithms, squares, or higher-order terms (e.g., quadratic or cubic terms) might help linearize the relationship.
+* Check: Plotting the scatterplot of the dependent variable against each independent variable helps assess linearity visually. If the relationship appears nonlinear, a curved trend might indicate a violation.
+* Adjustment: Transforming variables by taking logarithms, squares, or higher-order terms (e.g., quadratic or cubic terms) might help linearize the relationship.
 
 Example of plotting the dependent variable against each independent variable to assess the linearity assumption. Which in this case, there appears to be a violation of the assumption due to nonlinearity.
 Independence
